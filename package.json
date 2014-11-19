@@ -25,7 +25,16 @@
   "keywords": [
     "compute.io",
     "compute",
-    "computation"
+    "computation",
+    "comparison",
+    "array",
+    "utilities",
+    "utils",
+    "mathematics",
+    "math",
+    "compare",
+    "greater than",
+    "equal"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/geq/issues"
@@ -33,9 +42,10 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "1.x.x",
-    "mocha": "1.x.x",
+    "compute-sum": "^1.0.0",
     "coveralls": "^2.11.1",
-    "istanbul": "^0.3.0"
+    "istanbul": "^0.3.0",
+    "mocha": "1.x.x"
   },
   "licenses": [
     {
