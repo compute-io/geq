@@ -34,18 +34,30 @@
     "math",
     "compare",
     "greater than",
-    "equal"
+    "equal",
+    "greater",
+    "geq",
+    "gt"
   ],
   "bugs": {
     "url": "https://github.com/compute-io/geq/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "validate.io-array": "^1.0.3",
+    "validate.io-boolean-primitive": "^1.0.0",
+    "validate.io-function": "^1.0.2",
+    "validate.io-number-primitive": "^1.0.0",
+    "validate.io-object": "^1.0.3",
+    "validate.io-string-primitive": "^1.0.0"
+  },
   "devDependencies": {
-    "chai": "1.x.x",
-    "compute-sum": "^1.0.0",
+    "chai": "2.x.x",
+    "compute-sum": "^1.1.0",
     "coveralls": "^2.11.1",
     "istanbul": "^0.3.0",
-    "mocha": "1.x.x"
+    "jshint": "2.x.x",
+    "jshint-stylish": "^1.0.0",
+    "mocha": "2.x.x"
   },
   "licenses": [
     {
